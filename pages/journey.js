@@ -35,7 +35,7 @@ export default function Journey() {
                             </div>
 
 
-                            Understanding the trends in the industry and what the users think when they buy were our top priorities before we moved further in the building After weeks of fruitful research, we stepped into the user's shoes and look at what we plan to do. It's a great joy for the users if they are involved in the making Werte heading into an era of technology and people prefer online shopping to shopping in an outlet.
+                            Understanding the trends in the industry and what the users think when they buy were our top priorities before we moved further in the building After weeks of fruitful research, we stepped into the user&aposs shoes and look at what we plan to do. It&aposs a great joy for the users if they are involved in the making Werte heading into an era of technology and people prefer online shopping to shopping in an outlet.
                             <div className={styles.t1}>
                                 CHAPTER II
                             </div>

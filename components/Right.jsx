@@ -29,7 +29,7 @@ export default function Right() {
             })}
         </div> :
             <span className={styles.mpt}>
-                What's stopping you, designer?
+                What&aposs stopping you, designer?
             </span>}
         <PlaceOrder />
     </Card>
