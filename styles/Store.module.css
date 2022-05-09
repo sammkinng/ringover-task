@@ -8,12 +8,14 @@
     flex: 2;
     margin: 0 30px;
     padding: 30px;
+    overflow: auto;
 }
 
 .card3 {
     flex: 1;
     padding: 30px;
     justify-content: space-between;
+    overflow: auto;
 }
 
 .box {
@@ -101,5 +103,5 @@
 .order {
     display: flex;
     flex-direction: column;
-
+    margin-top: 30px;
 }
