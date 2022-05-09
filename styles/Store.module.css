@@ -12,6 +12,8 @@
 
 .card3 {
     flex: 1;
+    padding: 30px;
+    justify-content: space-between;
 }
 
 .box {
@@ -65,4 +67,39 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-start;
+}
+
+.mpt {
+    align-self: center;
+    /* margin-top: 50%; */
+}
+
+.btn {
+    border-radius: 1px;
+    background-color: #666;
+    width: 100px;
+    align-self: center;
+    text-align: center;
+    height: 30px;
+    padding: 7.5px 0;
+    line-height: 15px;
+    margin-top: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.hhh {
+    display: flex;
+    align-items: center;
+}
+
+.hhh span {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.order {
+    display: flex;
+    flex-direction: column;
+
 }
