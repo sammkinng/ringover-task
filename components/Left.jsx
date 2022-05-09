@@ -149,7 +149,7 @@ const filter_fxn = () => {
 
 }
 
-export default () => {
+export default function Left() {
     const { setShoes } = useContext(StoreContext)
     return <Card style={styles.card1}>
         <div className={styles.h1}>

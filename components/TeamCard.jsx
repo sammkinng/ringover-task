@@ -2,7 +2,7 @@ import Card from './Card'
 import styles from '../styles/Team.module.css'
 import Image from 'next/image'
 
-export default ({ item }) => {
+export default function TeamCard({ item }) {
     return <Card style={styles.card}>
         <Image
             src={item.dp}
@@ -25,8 +25,8 @@ export default ({ item }) => {
                             display: 'flex',
                             alignItems: 'center',
                             justifyContent: 'center'
-                        }}>
-                            <a href={item1.link} key={index}>
+                        }} key={index}>
+                            <a href={item1.link} >
                                 <Image
                                     src={item1.logo}
                                     width={25}

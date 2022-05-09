@@ -4,7 +4,7 @@ import Product from './Product'
 import { StoreContext } from '../pages/store'
 import { useContext } from 'react'
 
-export default () => {
+export default function Middle() {
     const { shoes, setCart, cart } = useContext(StoreContext)
     return <Card style={styles.card2}>
         <div className={styles.h1}>

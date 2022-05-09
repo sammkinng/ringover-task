@@ -1,7 +1,7 @@
 import styles from '../styles/Store.module.css'
 import Button from './Button'
 
-export default () => {
+export default function PlaceOrder() {
     return <div className={styles.order}>
         <div className={styles.hhh}>
             <span className={`material-symbols-outlined ${styles.txt1}`}>pin_drop</span> Home{' '}

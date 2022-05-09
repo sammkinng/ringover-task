@@ -1,7 +1,7 @@
 import styles from '../styles/Store.module.css'
 import Image from 'next/image'
 
-export default ({ image, name, price, onClick, show }) => {
+export default function Product({ image, name, price, onClick, show }) {
     return <div style={{
         width: 200,
         height: show ? 250 : 50,

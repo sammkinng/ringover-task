@@ -25,7 +25,7 @@ const data = [
     },
 ]
 
-export default ({ index1 }) => {
+export default function Topnavbar({ index1 }) {
     return <div className={styles.nav}>
         <Image
             src="/assets/websitelogo.png"

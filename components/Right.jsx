@@ -5,7 +5,7 @@ import { StoreContext } from '../pages/store'
 import PlaceOrder from './PlaceOrder'
 import Product from './Product'
 
-export default () => {
+export default function Right() {
     const { cart } = useContext(StoreContext)
     return <Card style={styles.card3}>
         <div className={styles.h1}>
