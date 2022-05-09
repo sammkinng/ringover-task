@@ -1,0 +1,61 @@
+.main {
+    min-height: 100vh;
+    padding: 0;
+    padding-top: 20vh;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+.journey {
+    height: 80vh;
+    width: 90vw;
+}
+
+.grass {
+    height: 25%;
+    background-image: url('/assets/grasspic.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 60px;
+    font-weight: 300;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black {
+    height: 75%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.path {
+    flex: 1;
+    background-image: url('/assets/path.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.txt {
+    flex: 20;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    /* overflow: auto; */
+    /* z-index: 10; */
+}
+
+.t1 {
+    font-size: 20px;
+    margin: 1vw 0;
+}
