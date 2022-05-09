@@ -1,6 +1,85 @@
 import Head from 'next/head'
+import TeamCard from '../components/TeamCard'
 import Topnavbar from '../components/Topnavbar'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Team.module.css'
+
+const data = [
+    {
+        name: 'Zidane',
+        dp: '/assets/zidane.jpg',
+        post: 'Leadership & management',
+        links: [
+            {
+                link: '#',
+                logo: '/assets/linkedin.png'
+            },
+            {
+                link: '#',
+                logo: '/assets/medium.png'
+            },
+            {
+                link: '#',
+                logo: '/assets/facebook.png'
+            },
+        ]
+    },
+    {
+        name: 'Toni Kroos',
+        dp: '/assets/tonikroos.jpg',
+        post: 'Product developer',
+        links: [
+            {
+                link: '#',
+                logo: '/assets/linkedin.png'
+            },
+            {
+                link: '#',
+                logo: '/assets/medium.png'
+            },
+        ]
+    },
+    {
+        name: 'Iker Casillas',
+        dp: '/assets/ikercasillas.jpg',
+        post: 'Marketing strategy',
+        links: [
+            {
+                link: '#',
+                logo: '/assets/medium.png'
+            }
+        ]
+    },
+    {
+        name: 'James',
+        dp: '/assets/james.jpg',
+        post: 'Product designer',
+        links: [
+            {
+                link: '#',
+                logo: '/assets/medium.png'
+            },
+            {
+                link: '#',
+                logo: '/assets/nba.png'
+            },
+        ]
+    },
+    {
+        name: 'Cristiano',
+        dp: '/assets/christiano.jpg',
+        post: 'Financial operations',
+        links: [
+            {
+                link: '#',
+                logo: '/assets/linkedin.png'
+            },
+            {
+                link: '#',
+                logo: '/assets/facebook.png'
+            },
+        ]
+    },
+]
 
 export default () => {
     return (
@@ -14,6 +93,22 @@ export default () => {
 
             <main className={styles.main}>
                 <Topnavbar index1={2} />
+                <span className={styles.txt1}>
+                    Without bonding and coordination, every project is a failure. Look at who makes KICKSUP great. ;)
+                </span>
+                <br></br>
+                <div className={styles.team}>
+                    {
+                        data.map((item, index) => {
+                            return (
+                                <TeamCard item={item} key={index} />
+                            )
+                        })
+                    }
+                </div>
+                <span className={styles.txt1}>
+                    and You! ;)
+                </span>
             </main>
 
         </div>
