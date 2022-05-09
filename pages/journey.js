@@ -3,7 +3,7 @@ import Topnavbar from '../components/Topnavbar'
 import styles from '../styles/Journey.module.css'
 import Image from 'next/image'
 
-export default () => {
+export default function Journey() {
     return (
         <div className={styles.container}>
             <Head>

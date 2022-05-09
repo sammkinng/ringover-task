@@ -4,7 +4,7 @@ import Card from "../components/Card"
 import Topnavbar from '../components/Topnavbar'
 import Image from 'next/image'
 
-export default () => {
+export default function Contact() {
     return <div className={styles.container}>
         <Head>
             <title>Contact Us</title>

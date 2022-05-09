@@ -8,7 +8,7 @@ import Right from '../components/Right'
 
 export const StoreContext = createContext()
 
-export default () => {
+export default function Store() {
     const [cart, setCart] = useState([])
     const [shoes, setShoes] = useState([
         {
