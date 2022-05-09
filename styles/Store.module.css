@@ -1,0 +1,68 @@
+.card1 {
+    flex: 1;
+    padding: 30px;
+    overflow: auto;
+}
+
+.card2 {
+    flex: 2;
+    margin: 0 30px;
+    padding: 30px;
+}
+
+.card3 {
+    flex: 1;
+}
+
+.box {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    height: 75vh;
+    margin-top: 50px;
+    padding: 0 30px;
+    position: absolute;
+    bottom: 30px;
+}
+
+.txt1 {
+    font-size: 30px;
+}
+
+.h1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.color {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.second {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sort {
+    border: 1px solid black;
+    height: 30px;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
